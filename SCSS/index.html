@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dodbit ofrece soluciones inteligentes. Alarmas y controles de temperatuta y energia, con avisador por SMS. Para hogares y empresas">
+    <meta name="keywords" content="soluciones, hogares, empresas, alarma, control, temperatura, energia, monitoreo, avisador, SMS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="icon" href="/img/logo.ico" sizes="32x32">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>dodbit - Home</title>
+</head>
+
+<body>
+    <!--seccion encabezado-->
+    <header class="encabezado">
+        <div class="logo"> <a href=index.html><img src="img/dodbit-logotipo.png" width="150px"></a>
+        </div>
+        <h1 class="titulo1">dodbit.com</h1>
+        <h2 class="titulo2">Soluciones inteligentes</h2>
+        <!---------menu navegacion con boostrap-------->
+        <!--seccion navegacion con BEM-->
+        <nav>
+            <ul class="barraNav nav justify-content-end">
+                <li class="barraNav__li barraNav__li--activo nav-item"><a class="barraNav__a nav-link" href="index.html">Inicio</a></li>
+                <li class="barraNav__li nav-item "><a class="barraNav__a nav-link" href="nosotros.html">Nosotros</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="productos.html">Productos</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="compra.html">Comprar</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="manuales.html"> Manuales</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="descargas.html">APPs</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <!---------------- comienzo Carousel de boostrap------------------>
+        <div id="carouselExampleCaptions" class="carousel slide w-50 centrar" data-bs-ride="carousel">
+            <div class="carousel-indicators bg-success">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousel-fade">
+                <div class="carousel-item active">
+                    <img src="img/Alarma-de-corte-de-energia-y-temperatura-x-SMS-HAL01.jpg" class="d-block w-100" alt="imagen producto HAL01">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>HAL01</h4>
+                        <p>Alarma de corte de energia y temperatura x SMS</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Alarma-de-alta-temperatura-baja-temperatura-y-corte-de-energia-por-SMS-ACU01.jpg" class="d-block w-100" alt="imagen producto ACU01">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>ACU01</h4>
+                        <p>Alarma de alta-baja temperatura y corte de energia para Acuarios</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Avisador-de-cortes-de-energia-ECO01.jpg" class="d-block w-100" alt="imagen producto ECO01">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>ECO01</h4>
+                        <p>Avisador de cortes de energia</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--------------------- fin Carousel--------------------------->
+    </main>
+    <!--seccion pie de pagina-->
+    <footer>
+        <div class="grad">
+            <h4>Seguinos en nuestras redes:</h4>
+            <a href="https://www.facebook.com/dodbit.ar.54" target="_blank"><img src="img/facebook.png"
+                    width="20px"></a>
+            <a href="https://www.instagram.com/dodbitar" target="_blank"><img src="img/instagram.png" width="20px"></a>
+            <p>&copy 2021 - Todos los derechos reservados.</p>
+        </div>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

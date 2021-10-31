@@ -1,0 +1,192 @@
+//----comienzo seccion nosotros
+    
+.pNosotros{
+    font-size: 1.3rem;
+    text-align: justify;
+    color: black;
+    background-color: $bgCajas;
+    opacity: .6;
+    margin: 40px 100px;
+    padding: 20px 60px;
+}
+.letraNosotros{
+    font-family: 'Baloo Chettan 2',  cursive;
+    font-size: 1.6rem;
+    color: $orange;
+}
+//------fin seccion nosotros
+
+
+//----- comienzo seccion productos
+
+.centrar{     //centra el carousel
+    margin-left: 20rem;
+}
+.bgColor{
+    background-color: $bgCajasImpar;    
+}
+.cero{
+    background-color:$bgCajas;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    & h2{
+        text-align: center;
+        background-color: rgb(34, 31, 31);
+        color: $letraClara;        
+    }
+    & h3{
+        text-align: center;
+        text-decoration: none;
+        color: $letraClara;
+        background: $bgGrad;
+        height: auto;
+    }
+    & img{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 35vw;
+        margin: 1vw auto 1vw;
+    }
+    & ol li{
+    margin: 1.1rem;
+    }
+}
+//-----------fin seccion productos
+
+//----------comienzo seccion manuales
+//-------------seccion grid
+.manuales{
+    display: grid;
+    grid-template-columns: (1fr, 1fr, 1fr);
+    grid-template-rows:(1fr, 1fr, 1fr);
+    margin-top: 50px;
+    gap: 15px 25px;
+    grid-auto-flow: column;
+    grid-template-areas:
+        "linkManuales linkManuales linkManuales"
+        "linkManuales linkManuales linkManuales"
+        "linkManuales linkManuales linkManuales";    
+    height: auto;
+    text-align: center;
+}
+//----------fin seccion grid
+
+.linkManuales{
+    margin: 50px 10px 10px 0px;
+    padding: 10px;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6; 
+    opacity: .8;
+    background-color: $bgLink;  
+    & a:hover{    
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.6; 
+        opacity: .8;
+        color:rgb(6, 88, 17);
+        transition:all .5s ease-in-out;
+    }
+}
+
+//------------fin seccion manuales
+
+//----------seccion comprar
+//-----------seccion grid
+.venta{
+    display: grid;
+    grid-template-columns: (1fr, 1fr, 1fr);
+    grid-template-rows: (1fr, 1fr, 1fr);
+    margin-top: .32rem;
+    gap: 1rem 1.6rem;
+    grid-auto-flow: column;
+    grid-template-areas:
+        "compra compra compra"
+        "compra compra compra"
+        "compra compra compra";    
+    height: auto;
+}
+//---- fin seccion grid
+
+.compra{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .8rem auto;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 250px;
+    & a{
+        color:$link;
+        font-weight: bold;
+        text-decoration: none;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-name: aparecer;
+    }
+        & a:hover{
+        text-decoration:none;
+        color: $linkHover;
+        animation: none;
+        font-size: 1.6rem;
+        transition:all .2s ease-in-out;
+    }
+}
+//-------fin seccion comprar
+
+//----------seccion descarga apps
+.descargaApp{
+    display: grid;
+    grid-template-columns: (1fr, 1fr, 1fr);
+    grid-template-rows: (1fr, 1fr);
+    margin-top: 50px;
+    gap: 15px 25px;
+    grid-auto-flow: column;
+    grid-template-areas:
+        "descarga descarga descarga"
+        "descarga descarga descarga";    
+    height: auto;
+    text-align: center;
+}
+.descarga{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6; 
+        & a:hover{       
+        opacity: .8;
+        color: $linkHover;
+        transition:all .5s ease-in-out;
+        }
+}
+    // -------fin seccion descarga apps
+
+    //-------------comienzo seccion contacto y form
+.contacto{
+    flex-direction: column;
+    margin: 75px 400px 50px;
+    padding: 10px;        
+    & legend{
+    color: crimson;
+    font-size: 1.5rem;
+    margin: .6rem;
+    }
+    & div{
+    margin: .6rem;
+    }
+    form {
+    color: $letraOscura;
+    background-color: $orange;
+    opacity: .9;
+    font-weight: bold;
+    }
+}
+//-------------fin seccion contacto y form-

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuestra pagina de contacto, para que pueda dejarnos sus consultas o comentarios">
+    <meta name="keywords" content="consultas, comentarios, nosotros, alarma, control, temperatura, energia, monitoreo, avisador, SMS">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="icon" href="./img/logo.png" sizes="32x32">
+    <title>dodbit - Contactanos</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!--seccion encabezado-->
+    <header>
+        <a href=index.html><img src="./img/dodbit-logotipo.png" width="150px"></a>
+        <h1>dejanos tus comentarios</h1>
+        <!--seccion navegacion-->
+        <nav>
+            <ul class="barraNav nav justify-content-end">
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="index.html">Inicio</a></li>
+                <li class="barraNav__li nav-item "><a class="barraNav__a nav-link" href="nosotros.html">Nosotros</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="productos.html">Productos</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="compra.html">Comprar</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="manuales.html"> Manuales</a></li>
+                <li class="barraNav__li nav-item"><a class="barraNav__a nav-link" href="descargas.html">APPs</a></li>
+                <li class="barraNav__li barraNav__li--activo  nav-item"><a class="barraNav__a nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--seccion formulario-->
+    <main>
+        <section class="contacto">
+            <form action="">
+                <fieldset>
+                    <legend>Completa tus datos</legend> <br> <br>
+                    <div>
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" name="nombre" required> 
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido">
+                    </div><br>
+                    <div>
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" name="email" required>
+                    </div><br>
+                    <div>
+                        <label for="numbers">Teléfono con código de área *</label>
+                        <input type="numbers" name="numeros" required>
+                    </div><br>
+                    <div>
+                        <label for="comentrios">Escribe tu mensaje</label> <br>
+                        <textarea name="comentarios" id="" cols="50" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="enviar" value="Enviar Datos">
+                        <input type="reset" name="reset" value="Borrar formulario">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!--seccion pie de pagina-->
+    <footer>
+        <div class="grad">
+            <h4>Seguinos en nuestras redes:</h4>
+            <a href="https://www.facebook.com/dodbit.ar.54" target="_blank"><img src="img/facebook.png"
+                    width="20px"></a>
+            <a href="https://www.instagram.com/dodbitar" target="_blank"><img src="img/instagram.png" width="20px"></a>
+            <p>&copy 2021 - Todos los derechos reservados.</p>
+        </div>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+            integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+            integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

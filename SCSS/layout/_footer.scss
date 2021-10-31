@@ -1,0 +1,35 @@
+ //--------seccion footer
+ footer{
+    margin-top: 1rem;
+    color:$letraClara;
+    text-align: center;    
+    & h4{
+    font-size: 1rem;
+    margin: .3rem;
+    padding-top: 1rem;
+    color: $letraClara;
+    }
+    & p{
+    font-size: .8rem;
+    margin: .3rem;
+    text-align:center;
+    padding-bottom: 1rem;
+    color: $letraClara;
+    }
+    & img{
+    width: 30px;
+    margin-left: .3rem;
+        &:hover{
+        width: 35px;
+        transition:all .5s ease-in-out;
+        }
+    }
+    & div{     
+    width: auto;
+    height: 130px;
+    }
+    .grad{
+    background: $bgGrad;
+    }
+}
+//-----fin seccion footer
